@@ -85,7 +85,6 @@ class WordPoints_WPDataTables_Entity_Row
 	 * @since 1.0.0
 	 */
 	protected function get_entity_human_id( $entity ) {
-		// TODO
 		return $this->get_entity_id( $entity );
 	}
 
