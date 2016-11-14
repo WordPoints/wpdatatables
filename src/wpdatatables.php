@@ -37,6 +37,8 @@ WordPoints_Modules::register(
 		Description: Integrates with the wpDataTables plugin
 		Text Domain: wordpoints-wpdatatables
 		Domain Path: /languages
+		Channel:     wordpoints.org
+		ID:          919
 		Namespace:   WPDataTables
 	'
 	, __FILE__
