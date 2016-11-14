@@ -39,7 +39,6 @@ class WordPoints_WPDataTables_Entity_Row
 	 * @since 1.0.0
 	 */
 	public function get_title() {
-		// TODO
 		return __( 'Row', 'wordpoints-wpdatatables' );
 	}
 
