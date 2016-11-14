@@ -1,0 +1,18 @@
+{
+    "\/classes\/entity\/row\/attr.php": {
+        "integer": {
+            "50": false
+        },
+        "text": {
+            "55": false
+        }
+    },
+    "\/includes\/apps.php": {
+        "WordPoints_WPDataTables_Entity_Row_User": {
+            "66": false
+        },
+        "WordPoints_WPDataTables_Entity_Row_Attr": {
+            "68": false
+        }
+    }
+}

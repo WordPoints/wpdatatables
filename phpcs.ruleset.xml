@@ -1,1 +1,13 @@
-dev-lib/phpcs/WordPoints/ruleset.xml
+<?xml version="1.0"?>
+<ruleset name="WordPoints-WPDataTables">
+	<description>Configuration for the wpDataTables integration module.</description>
+
+	<rule ref="WordPoints" />
+
+	<rule ref="WordPress.NamingConventions.ValidVariableName">
+		<properties>
+			<property name="customVariablesWhitelist" value="wdt_ID" type="array" />
+		</properties>
+	</rule>
+
+</ruleset>

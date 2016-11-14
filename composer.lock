@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "94ab586d463ccecc3b5fcaaa99ced300",
+    "content-hash": "89de3ad35b697a4536a157c2889c439a",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "jdgrimes/wpppb",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JDGrimes/wpppb.git",
+                "reference": "c7f4c331165cd2460fbdfa70145f396630eddd7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JDGrimes/wpppb/zipball/c7f4c331165cd2460fbdfa70145f396630eddd7f",
+                "reference": "c7f4c331165cd2460fbdfa70145f396630eddd7f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "bin": [
+                "bin/wpppb-init"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "WPPPB_": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "J.D. Grimes",
+                    "email": "jdg@codesymphony.co",
+                    "homepage": "http://codesymphony.co",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Bootstrap for integration testing WordPress plugins with PHPUnit",
+            "homepage": "https://github.com/JDGrimes/wpppb",
+            "time": "2016-11-04 20:01:10"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

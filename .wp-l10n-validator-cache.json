@@ -1,0 +1,50 @@
+{
+    "files": {
+        "\/classes\/entity\/row\/attr.php": {
+            "size": 1070,
+            "hash": "648b4f88f2f1c85e6364c2cbf0db3c85",
+            "errors": false
+        },
+        "\/classes\/entity\/row\/user.php": {
+            "size": 1067,
+            "hash": "e207344bb1bd8633ab28c480b15e53c0",
+            "errors": false
+        },
+        "\/classes\/entity\/row.php": {
+            "size": 2149,
+            "hash": "1a678b832531c4b100ff6fcbf0b3f40a",
+            "errors": false
+        },
+        "\/classes\/hook\/action\/row\/frontend\/create.php": {
+            "size": 901,
+            "hash": "eaa62a89377a6272cee8c1583b130dcf",
+            "errors": false
+        },
+        "\/classes\/hook\/event\/row\/create.php": {
+            "size": 1423,
+            "hash": "dbfa32f66184cf777504109dd50202d1",
+            "errors": false
+        },
+        "\/classes\/index.php": {
+            "size": 526,
+            "hash": "6d5833e6f618c293b70fbadae66940f2",
+            "errors": false
+        },
+        "\/includes\/actions.php": {
+            "size": 437,
+            "hash": "c9d921b591540bac6a49f176f6cbc77b",
+            "errors": false
+        },
+        "\/includes\/apps.php": {
+            "size": 3463,
+            "hash": "84fa455b62cc5e5a9551ce546cf60c12",
+            "errors": false
+        },
+        "\/wpdatatables.php": {
+            "size": 1808,
+            "hash": "3105b27c011be7c4fa938cd7ec3c19b1",
+            "errors": false
+        }
+    },
+    "config_signature": "73245224c123d3dd655a9422bbdc3964"
+}
