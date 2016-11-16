@@ -20,6 +20,15 @@ class WordPoints_WPDataTables_All_Entities_Test
 	extends WordPoints_PHPUnit_TestCase_Entities {
 
 	/**
+	 * The data for the table used in this test.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @var array
+	 */
+	protected $table;
+
+	/**
 	 * Provides a list of entities.
 	 *
 	 * @since 1.0.0
@@ -57,7 +66,8 @@ class WordPoints_WPDataTables_All_Entities_Test
 			)
 		);
 
-		$entities = array(
+		$userid_column_id = $this->table['userid_column_id'];
+		$entities         = array(
 			'wpdatatables_row' => array(
 				array(
 					'class'          => 'WordPoints_WPDataTables_Entity_Row',
@@ -74,8 +84,7 @@ class WordPoints_WPDataTables_All_Entities_Test
 					'create_func'    => array( $this, 'create_row' ),
 					'delete_func'    => array( $this, 'delete_row' ),
 					'children'       => array(
-						'wpdatatables_row_attr\\'
-							. $this->table['userid_column_id'] => array(
+						'wpdatatables_row_attr\\' . $userid_column_id => array(
 							'class' => 'WordPoints_WPDataTables_Entity_Row_User',
 							'primary' => "wpdatatables_row\\{$this->table['id']}",
 							'related' => 'user',
@@ -87,8 +96,7 @@ class WordPoints_WPDataTables_All_Entities_Test
 								),
 							),
 						),
-						'wpdatatables_row_attr\\'
-							. ( $this->table['userid_column_id'] + 1 ) => array(
+						'wpdatatables_row_attr\\' . ( $userid_column_id + 1 ) => array(
 							'class' => 'WordPoints_WPDataTables_Entity_Row_Attr',
 							'data_type' => 'integer',
 							'storage_info' => array(
@@ -99,8 +107,7 @@ class WordPoints_WPDataTables_All_Entities_Test
 								),
 							),
 						),
-						'wpdatatables_row_attr\\'
-							. ( $this->table['userid_column_id'] + 2 ) => array(
+						'wpdatatables_row_attr\\' . ( $userid_column_id + 2 ) => array(
 							'class' => 'WordPoints_WPDataTables_Entity_Row_Attr',
 							'data_type' => 'text',
 							'storage_info' => array(
