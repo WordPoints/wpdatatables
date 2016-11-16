@@ -47,6 +47,9 @@ matrix:
     - php: nightly
   fast_finish: true
 
+before_install:
+    - openssl aes-256-cbc -K $encrypted_0d261e9bbce3_key -iv $encrypted_0d261e9bbce3_iv -in wpdatatables.zip.enc -out wpdatatables.zip -d
+
 before_script:
     - export WORDPOINTS_PROJECT_TYPE=module
     - export DEV_LIB_PATH=dev-lib
