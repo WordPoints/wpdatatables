@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "016a42acb471743826345feaa285aace",
-    "content-hash": "8add67749927a0f9640dc442898e11e2",
+    "hash": "94ab586d463ccecc3b5fcaaa99ced300",
+    "content-hash": "89de3ad35b697a4536a157c2889c439a",
     "packages": [],
     "packages-dev": [
         {
@@ -49,37 +49,6 @@
             "description": "Bootstrap for integration testing WordPress plugins with PHPUnit",
             "homepage": "https://github.com/JDGrimes/wpppb",
             "time": "2016-11-04 20:01:10"
-        },
-        {
-            "name": "xrstf/composer-php52",
-            "version": "v1.0.20",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/composer-php52/composer-php52.git",
-                "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/composer-php52/composer-php52/zipball/bd41459d5e27df8d33057842b32377c39e97a5a8",
-                "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-default": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "xrstf\\Composer52": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "time": "2016-04-16 21:52:24"
         }
     ],
     "aliases": [],
