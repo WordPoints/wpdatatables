@@ -18,6 +18,21 @@ class WordPoints_WPDataTables_Hook_Action_Row_Frontend_Create_Test
 	extends WordPoints_PHPUnit_TestCase {
 
 	/**
+	 * @since 1.0.0
+	 */
+	public function tearDown() {
+
+		global $wpdb;
+
+		// Reset the database connection to drop the temporary tables created during
+		// the tests.
+		$wpdb->close();
+		$wpdb->db_connect();
+
+		parent::tearDown();
+	}
+
+	/**
 	 * Test that it should fire when the POST data is correct.
 	 *
 	 * @since 1.0.0

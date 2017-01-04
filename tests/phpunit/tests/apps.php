@@ -16,6 +16,21 @@ class WordPoints_WPDataTables_Apps_Functions_Test
 	extends WordPoints_PHPUnit_TestCase_Hooks {
 
 	/**
+	 * @since 1.0.0
+	 */
+	public function tearDown() {
+
+		global $wpdb;
+
+		// Reset the database connection to drop the temporary tables created during
+		// the tests.
+		$wpdb->close();
+		$wpdb->db_connect();
+
+		parent::tearDown();
+	}
+
+	/**
 	 * Test getting the tables for auto-integration.
 	 *
 	 * @since 1.0.0
