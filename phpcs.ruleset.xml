@@ -2,7 +2,7 @@
 <ruleset name="WordPoints-WPDataTables">
 	<description>Configuration for the wpDataTables integration module.</description>
 
-	<rule ref="WordPoints" />
+	<rule ref="dev-lib/phpcs/WordPoints/ruleset.xml" />
 
 	<rule ref="WordPress.NamingConventions.ValidVariableName">
 		<properties>

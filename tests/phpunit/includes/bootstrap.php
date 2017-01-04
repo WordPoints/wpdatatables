@@ -7,7 +7,7 @@
  * @since 1.0.0
  */
 
-WordPoints_Dev_Lib_PHPUnit_Class_Autoloader::register_dir(
+WordPoints_PHPUnit_Class_Autoloader::register_dir(
 	dirname( __FILE__ ) . '/../classes'
 	, 'WordPoints_WPDataTables_PHPUnit_'
 );
