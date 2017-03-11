@@ -7,6 +7,10 @@
  * @since   1.0.0
  */
 
+if ( ! function_exists( 'wdt_get_table_by_id' ) ) {
+	return;
+}
+
 add_action( 'wordpoints_init_app_registry-apps-entities', 'wordpoints_wpdatatables_entities_init' );
 
 add_action( 'wordpoints_init_app_registry-hooks-actions', 'wordpoints_wpdatatables_hook_actions_init' );
