@@ -4,7 +4,7 @@
  * Main file of the module.
  *
  * ---------------------------------------------------------------------------------|
- * Copyright 2016  J.D. Grimes  (email : jdg@codesymphony.co)
+ * Copyright 2016-17  J.D. Grimes  (email : jdg@codesymphony.co)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2 or later, as
@@ -21,7 +21,7 @@
  * ---------------------------------------------------------------------------------|
  *
  * @package WordPoints_WPDataTables
- * @version 1.0.0
+ * @version 1.0.1
  * @author  J.D. Grimes <jdg@codesymphony.co>
  * @license GPLv2+
  */
@@ -32,7 +32,7 @@ WordPoints_Modules::register(
 		Author:      WordPoints
 		Author URI:  https://wordpoints.org/
 		Plugin URI:  https://wordpoints.org/
-		Version:     1.0.0
+		Version:     1.0.1
 		License:     GPLv2+
 		Description: Integrates with the wpDataTables plugin
 		Text Domain: wordpoints-wpdatatables

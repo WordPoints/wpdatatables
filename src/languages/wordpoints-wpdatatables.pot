@@ -1,0 +1,34 @@
+# Copyright (C) 2017 WordPoints
+# This file is distributed under the same license as the WordPoints wpDataTables package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPoints wpDataTables 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-11 18:41:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/entity/row.php:42
+msgid "Row"
+msgstr ""
+
+#. translators: Table name.
+#: classes/hook/event/row/create.php:30
+msgid "Add Row to %s"
+msgstr ""
+
+#: classes/hook/event/row/create.php:35
+msgid "Add Row to Table"
+msgstr ""
+
+#: classes/hook/event/row/create.php:43
+msgid "Adding a row to a table."
+msgstr ""
+
+#: classes/hook/event/row/create.php:50
+msgid "Row deleted."
+msgstr ""
