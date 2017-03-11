@@ -37,8 +37,8 @@ class WordPoints_WPDataTables_All_Entities_Test
 	 */
 	public function data_provider_entities() {
 
-		$factory = $this->factory = new WP_UnitTest_Factory();
-		$factory->wordpoints = WordPoints_PHPUnit_Factory::$factory;
+		$this->factory             = new WP_UnitTest_Factory();
+		$this->factory->wordpoints = WordPoints_PHPUnit_Factory::$factory;
 
 		$this->table = $this->factory->wordpoints->wpdatatables_table->create_and_get(
 			array(
@@ -138,7 +138,11 @@ class WordPoints_WPDataTables_All_Entities_Test
 		global $wpdb;
 
 		$wpdb->query(
-			"INSERT INTO `{$this->table['mysql_table_name']}` () VALUES ()"
+			"
+				INSERT INTO `{$this->table['mysql_table_name']}`
+					( `user`, `integer`, `string` )
+				VALUES ( 3, 4, 'test' )
+			"
 		);
 
 		$row = $wpdb->get_row(

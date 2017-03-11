@@ -33,7 +33,10 @@ function wordpoints_wpdatatables_get_tables_for_auto_integration() {
 	 *
 	 * @param array $ids The IDs of the tables to integrate with.
 	 */
-	return apply_filters( 'wordpoints_wpdatatables_tables_for_auto_integration', $ids );
+	return apply_filters(
+		'wordpoints_wpdatatables_tables_for_auto_integration'
+		, array_map( 'absint', $ids )
+	);
 }
 
 /**

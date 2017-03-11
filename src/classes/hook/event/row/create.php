@@ -25,8 +25,8 @@ class WordPoints_WPDataTables_Hook_Event_Row_Create
 
 		if ( $table_title ) {
 
-			// translators: table name.
 			return sprintf(
+				// translators: Table name.
 				__( 'Add Row to %s', 'wordpoints-wpdatatables' )
 				, $table_title
 			);

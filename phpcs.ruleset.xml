@@ -6,7 +6,7 @@
 
 	<rule ref="WordPress.NamingConventions.ValidVariableName">
 		<properties>
-			<property name="customVariablesWhitelist" value="wdt_ID" type="array" />
+			<property name="customPropertiesWhitelist" value="wdt_ID" type="array" />
 		</properties>
 	</rule>
 

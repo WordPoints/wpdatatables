@@ -45,7 +45,7 @@ class WordPoints_WPDataTables_Apps_Functions_Test
 			, array( 'editable' => 1 )
 		);
 
-		$this->assertEquals(
+		$this->assertSame(
 			$editable_ids
 			, wordpoints_wpdatatables_get_tables_for_auto_integration()
 		);
@@ -69,13 +69,13 @@ class WordPoints_WPDataTables_Apps_Functions_Test
 		$mock = new WordPoints_PHPUnit_Mock_Filter( array( 5 ) );
 		$mock->add_filter( 'wordpoints_wpdatatables_tables_for_auto_integration' );
 
-		$this->assertEquals(
+		$this->assertSame(
 			array( 5 )
 			, wordpoints_wpdatatables_get_tables_for_auto_integration()
 		);
 
-		$this->assertEquals( 1, $mock->call_count );
-		$this->assertEquals( array( $editable_ids ), $mock->calls[0] );
+		$this->assertSame( 1, $mock->call_count );
+		$this->assertSame( array( $editable_ids ), $mock->calls[0] );
 	}
 
 	/**

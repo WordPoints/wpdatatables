@@ -107,8 +107,8 @@ class WordPoints_WPDataTables_Hook_Event_Row_Create_Test
 	 */
 	public function data_provider_targets() {
 
-		$factory = $this->factory = new WP_UnitTest_Factory();
-		$factory->wordpoints = WordPoints_PHPUnit_Factory::$factory;
+		$this->factory             = new WP_UnitTest_Factory();
+		$this->factory->wordpoints = WordPoints_PHPUnit_Factory::$factory;
 
 		self::$table_data = $this->factory->wordpoints->wpdatatables_table->create_and_get(
 			array(
@@ -128,7 +128,8 @@ class WordPoints_WPDataTables_Hook_Event_Row_Create_Test
 		$this->set_expected_targets();
 
 		self::$backup_app = WordPoints_App::$main;
-		WordPoints_App::$main = self::$_backup_app = new WordPoints_App( 'apps' );
+		self::$_backup_app = new WordPoints_App( 'apps' );
+		WordPoints_App::$main = self::$_backup_app;
 
 		wordpoints_init_hooks();
 
