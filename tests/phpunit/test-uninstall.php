@@ -12,7 +12,8 @@
  *
  * @since 1.0.0
  */
-class WordPoints_WPDataTables_Uninstall_Test extends WPPPB_TestCase_Uninstall {
+class WordPoints_WPDataTables_Uninstall_Test
+	extends WordPoints_PHPUnit_TestCase_Module_Uninstall {
 
 	/**
 	 * Test installation and uninstallation.
