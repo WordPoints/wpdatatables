@@ -62,6 +62,18 @@ class WordPoints_WPDataTables_All_Entities_Test
 						'possible_values' => '',
 						'default_value' => '',
 					),
+					array(
+						'name' => 'Float',
+						'type' => 'float',
+						'possible_values' => '',
+						'default_value' => '',
+					),
+					array(
+						'name' => 'Datetime',
+						'type' => 'datetime',
+						'possible_values' => '',
+						'default_value' => '',
+					),
 				),
 			)
 		);
@@ -118,6 +130,28 @@ class WordPoints_WPDataTables_All_Entities_Test
 								),
 							),
 						),
+						'wpdatatables_row_attr\\' . ( $userid_column_id + 3 ) => array(
+							'class' => 'WordPoints_WPDataTables_Entity_Row_Attr',
+							'data_type' => 'decimal_number',
+							'storage_info' => array(
+								'type' => 'db',
+								'info' => array(
+									'type' => 'field',
+									'field' => 'float',
+								),
+							),
+						),
+						'wpdatatables_row_attr\\' . ( $userid_column_id + 4 ) => array(
+							'class' => 'WordPoints_WPDataTables_Entity_Row_Attr',
+							'data_type' => 'mysql_datetime',
+							'storage_info' => array(
+								'type' => 'db',
+								'info' => array(
+									'type' => 'field',
+									'field' => 'datetime',
+								),
+							),
+						),
 					),
 				),
 			),
@@ -140,8 +174,8 @@ class WordPoints_WPDataTables_All_Entities_Test
 		$wpdb->query(
 			"
 				INSERT INTO `{$this->table['mysql_table_name']}`
-					( `user`, `integer`, `string` )
-				VALUES ( 3, 4, 'test' )
+					( `user`, `integer`, `string`, `float`, `datetime` )
+				VALUES ( 3, 4, 'test', 2.3, '2017-03-15 11:08:02' )
 			"
 		);
 

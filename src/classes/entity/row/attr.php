@@ -50,6 +50,14 @@ class WordPoints_WPDataTables_Entity_Row_Attr
 				$this->data_type = 'integer';
 			break;
 
+			case 'float':
+				$this->data_type = 'decimal_number';
+			break;
+
+			case 'datetime':
+				$this->data_type = 'mysql_datetime';
+			break;
+
 			case 'string':
 			default:
 				$this->data_type = 'text';
