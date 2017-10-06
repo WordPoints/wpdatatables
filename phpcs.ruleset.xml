@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="WordPoints-WPDataTables">
-	<description>Configuration for the wpDataTables integration module.</description>
+	<description>Configuration for the wpDataTables integration extension.</description>
 
 	<rule ref="dev-lib/phpcs/WordPoints/ruleset.xml" />
 

@@ -1,4 +1,4 @@
-# Change Log for wpDataTables Module
+# Change Log for wpDataTables Extension
 
 All notable changes to this project will be documented in this file.
 

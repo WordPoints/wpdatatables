@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Main file of the module.
+ * Main file of the extension.
  *
  * ---------------------------------------------------------------------------------|
  * Copyright 2016-17  J.D. Grimes  (email : jdg@codesymphony.co)
@@ -47,14 +47,14 @@ wordpoints_register_extension(
 WordPoints_Class_Autoloader::register_dir( dirname( __FILE__ ) . '/classes/' );
 
 /**
- * The apps related functions for this module.
+ * The apps related functions for this extension.
  *
  * @since 1.0.0
  */
 require_once dirname( __FILE__ ) . '/includes/apps.php';
 
 /**
- * Hooks up the actions and filters for this module.
+ * Hooks up the actions and filters for this extension.
  *
  * @since 1.0.0
  */

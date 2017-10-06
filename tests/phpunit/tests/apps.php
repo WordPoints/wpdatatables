@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Test case for the module's apps related functions.
+ * Test case for the extension's apps related functions.
  *
  * @package WordPoints_WPDataTables\PHPUnit\Tests
  * @since 1.0.0
  */
 
 /**
- * Tests the module's apps related functions.
+ * Tests the extension's apps related functions.
  *
  * @since 1.0.0
  */
