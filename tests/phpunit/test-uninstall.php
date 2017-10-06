@@ -8,12 +8,14 @@
  */
 
 /**
- * Tests uninstalling the plugin.
+ * Tests uninstalling the extension.
  *
  * @since 1.0.0
+ *
+ * @coversNothing
  */
 class WordPoints_WPDataTables_Uninstall_Test
-	extends WordPoints_PHPUnit_TestCase_Module_Uninstall {
+	extends WordPoints_PHPUnit_TestCase_Extension_Uninstall {
 
 	/**
 	 * Test installation and uninstallation.

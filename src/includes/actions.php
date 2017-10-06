@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Hooks up the module's actions and filters.
+ * Hooks up the extension's actions and filters.
  *
  * @package WordPoints_WPDataTables
  * @since   1.0.0

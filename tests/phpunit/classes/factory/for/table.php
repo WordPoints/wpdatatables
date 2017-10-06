@@ -61,7 +61,7 @@ class WordPoints_WPDataTables_PHPUnit_Factory_For_Table
 			 *
 			 * @since 1.0.0
 			 */
-			require_once( WDT_ROOT_PATH . 'source/class.constructor.php' );
+			require_once WDT_ROOT_PATH . 'source/class.constructor.php';
 		}
 
 		if ( ! isset( $args['columns'] ) ) {

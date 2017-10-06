@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Main file of the module.
+ * Main file of the extension.
  *
  * ---------------------------------------------------------------------------------|
  * Copyright 2016-17  J.D. Grimes  (email : jdg@codesymphony.co)
@@ -21,25 +21,25 @@
  * ---------------------------------------------------------------------------------|
  *
  * @package WordPoints_WPDataTables
- * @version 1.1.0
+ * @version 1.1.1
  * @author  J.D. Grimes <jdg@codesymphony.co>
  * @license GPLv2+
  */
 
-WordPoints_Modules::register(
+wordpoints_register_extension(
 	'
-		Module Name: wpDataTables
-		Author:      WordPoints
-		Author URI:  https://wordpoints.org/
-		Plugin URI:  https://wordpoints.org/
-		Version:     1.1.0
-		License:     GPLv2+
-		Description: Integrates with the wpDataTables plugin
-		Text Domain: wordpoints-wpdatatables
-		Domain Path: /languages
-		Channel:     wordpoints.org
-		ID:          919
-		Namespace:   WPDataTables
+		Extension Name: wpDataTables
+		Author:         WordPoints
+		Author URI:     https://wordpoints.org/
+		Extension URI:  https://wordpoints.org/extensions/wpdatatables/
+		Version:        1.1.1
+		License:        GPLv2+
+		Description:    Integrates with the wpDataTables plugin
+		Text Domain:    wordpoints-wpdatatables
+		Domain Path:    /languages
+		Server:         wordpoints.org
+		ID:             919
+		Namespace:      WPDataTables
 	'
 	, __FILE__
 );
@@ -47,17 +47,17 @@ WordPoints_Modules::register(
 WordPoints_Class_Autoloader::register_dir( dirname( __FILE__ ) . '/classes/' );
 
 /**
- * The apps related functions for this module.
+ * The apps related functions for this extension.
  *
  * @since 1.0.0
  */
-require_once( dirname( __FILE__ ) . '/includes/apps.php' );
+require_once dirname( __FILE__ ) . '/includes/apps.php';
 
 /**
- * Hooks up the actions and filters for this module.
+ * Hooks up the actions and filters for this extension.
  *
  * @since 1.0.0
  */
-require_once( dirname( __FILE__ ) . '/includes/actions.php' );
+require_once dirname( __FILE__ ) . '/includes/actions.php';
 
 // EOF

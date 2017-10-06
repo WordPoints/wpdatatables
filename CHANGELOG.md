@@ -1,4 +1,4 @@
-# Change Log for wpDataTables Module
+# Change Log for wpDataTables Extension
 
 All notable changes to this project will be documented in this file.
 
@@ -7,6 +7,20 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a CH
 ## [Unreleased]
 
 Nothing documented right now.
+
+## [1.1.1] - 2017-10-06
+
+### Requires
+
+- WordPoints: 2.4+
+
+### Changed
+
+- Row entity to use core's built-in integer ID handling.
+
+### Fixed
+
+- Deprecated notices from `Channel`, `Module Name`, and `Module URI` extension headers.
 
 ## [1.1.0] - 2017-03-15
 
@@ -35,6 +49,7 @@ Nothing documented right now.
 - PHPUnit factory for tables to use in the tests.
 
 [unreleased]: https://github.com/WordPoints/wpdatatables/compare/master...HEAD
+[1.1.1]: https://github.com/WordPoints/wpdatatables/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/WordPoints/wpdatatables/compare/1.0.1...1.1.0
 [1.0.1]: https://github.com/WordPoints/wpdatatables/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/WordPoints/wpdatatables/compare/...1.0.0

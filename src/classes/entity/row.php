@@ -17,6 +17,11 @@ class WordPoints_WPDataTables_Entity_Row
 	implements WordPoints_Entityish_StoredI {
 
 	/**
+	 * @since 1.1.1
+	 */
+	protected $id_is_int = true;
+
+	/**
 	 * The ID of the table this row type is for.
 	 *
 	 * @since 1.0.0
@@ -84,7 +89,7 @@ class WordPoints_WPDataTables_Entity_Row
 	 * @since 1.0.0
 	 */
 	protected function get_entity_human_id( $entity ) {
-		return $this->get_entity_id( $entity );
+		return (string) $this->get_entity_id( $entity );
 	}
 
 	/**
@@ -98,13 +103,6 @@ class WordPoints_WPDataTables_Entity_Row
 				'table_name' => $this->get_table_name(),
 			),
 		);
-	}
-
-	/**
-	 * @since 1.0.0
-	 */
-	public function get_the_id() {
-		return (int) parent::get_the_id();
 	}
 
 	/**
