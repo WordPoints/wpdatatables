@@ -21,7 +21,7 @@
  * ---------------------------------------------------------------------------------|
  *
  * @package WordPoints_WPDataTables
- * @version 1.1.0
+ * @version 1.1.1
  * @author  J.D. Grimes <jdg@codesymphony.co>
  * @license GPLv2+
  */
@@ -32,7 +32,7 @@ wordpoints_register_extension(
 		Author:         WordPoints
 		Author URI:     https://wordpoints.org/
 		Extension URI:  https://wordpoints.org/extensions/wpdatatables/
-		Version:        1.1.0
+		Version:        1.1.1
 		License:        GPLv2+
 		Description:    Integrates with the wpDataTables plugin
 		Text Domain:    wordpoints-wpdatatables
