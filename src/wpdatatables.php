@@ -26,20 +26,20 @@
  * @license GPLv2+
  */
 
-WordPoints_Modules::register(
+wordpoints_register_extension(
 	'
-		Module Name: wpDataTables
-		Author:      WordPoints
-		Author URI:  https://wordpoints.org/
-		Plugin URI:  https://wordpoints.org/
-		Version:     1.1.0
-		License:     GPLv2+
-		Description: Integrates with the wpDataTables plugin
-		Text Domain: wordpoints-wpdatatables
-		Domain Path: /languages
-		Channel:     wordpoints.org
-		ID:          919
-		Namespace:   WPDataTables
+		Extension Name: wpDataTables
+		Author:         WordPoints
+		Author URI:     https://wordpoints.org/
+		Extension URI:  https://wordpoints.org/extensions/wpdatatables/
+		Version:        1.1.0
+		License:        GPLv2+
+		Description:    Integrates with the wpDataTables plugin
+		Text Domain:    wordpoints-wpdatatables
+		Domain Path:    /languages
+		Server:         wordpoints.org
+		ID:             919
+		Namespace:      WPDataTables
 	'
 	, __FILE__
 );
